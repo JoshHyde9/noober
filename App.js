@@ -3,12 +3,13 @@ import React from "react";
 import { View } from "react-native";
 
 import { HomeScreen } from "./src/screens/HomeScreen";
+import { DestinationSearch } from "./src/screens/DestinationSearch";
 
 export const App = () => {
   return (
     <View>
       <StatusBar style="auto" />
-      <HomeScreen />
+      <DestinationSearch />
     </View>
   );
 };
